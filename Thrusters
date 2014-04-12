@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+// This code has never been tested on a real satellite and may have bugs unknown. 
+int main ()
+{
+cout << What direction would you like the satellite to face? << endl;
+cout << Use the "a" and "d" keys for the corresponding direction << endl;
+cin >> direc;
+if (a){
+//activate left thruster
+cout << You have just activated the left thruster;
+}
+else if (d){
+//activate right thruster
+cout << You have just activated the right thruster; 
+} 
+while ( 1 )
+{
+// thruster code again
+}
